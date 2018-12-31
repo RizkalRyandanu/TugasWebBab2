@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Rizkal Web</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            body {
+                background-image: url("wall.jpg");
+                background-repeat: repeat-x;
+                background-size: cover;
+                background-attachment: fixed
+                }
+            input[type=text],select {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc
+                border-radius: 4px;
+                border-sizing: border-box;
+            }
+            input[type=text],select {
+                width: 100%;
+                background-color: #4FAC50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                border-sizing: pointer;
+            }
+           input[type=submit]:hover{background-color: #45a049;}
+           div{border-radius: 5px; background-color: #F2F2F2; padding: 20px;}
+           ul  {
+            list-style: square inside url("");
+                }
+                
+            table {
+        font-family: verdana, arial, sans-serif;
+        font-size: 11px;
+        color: #333333;
+        border-width: 1px;
+        border-color: #3A3A3A;
+        border-collapse: collapse;
+    }
+    table th {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #FFA6A6;
+        background-color: #D56A6A;
+        color: #ffffff;
+    }
+    table tr:hover td {
+        cursor: pointer;
+    }
+    table tr:nth-child(even) td{
+        background-color: #F7CFCF;
+    }
+    table td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #FFA6A6;
+        background-color: #ffffff;
+    }    
+      h1 {
+            border-style: dotted;
+         }
+
+        div {
+              border-style: double;
+            }
+            #link {color: blue;} 
+            div.absolute {
+                position: absolute;1
+                top: 80px;
+                right: 0;
+                width: 200px;
+                height: 100px;
+                border: 3px solid #543535;
+            }
+            h1 {    text-align: center;
+                }
+                
+                body {font: Times New Roman;}
+
+
+        .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+
+        .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        }
+
+
+        .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <h1 style="font-size:2vw;">
+بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ</h1>
+        <header role="banner"><h1>Tugas Rizkal Desain Web</h1></header>
+        <article>
+            <section>
+                <div>
+                    <form action="#">
+                        <label for="nim">NIM</label>
+                        <input type="text"id="nim"name="NIM"placeholder="Nomor Induk Mahasiswa"
+                        <label for="nama">NAMA</label>
+                        <input type="text"id="nama"name="NAMA"placeholder="Nama Lengkap"
+                        <label for="country"name="country"</label>      
+                            <select id="country"name="country">
+                                <option value="TI S1">Teknik Informatika S1</option>
+                                <option value="SI S1">Sistem Informasi S1</option>
+                                <option value="MI S3">Management Informatika S1</option>
+                                <option value="TI D3">Teknik Informatika D3</option>
+                            </select>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                
+            </section>
+        </article>
+       
+        <h1>Ini Contoh list-style</h1>
+
+        <p>Ini adalah Contoh List Prodi</p>
+
+        <ul>
+        <li>S1 Informatika</li>
+        <li>S1 Sistem Informasi</li>
+        <li>D3 Management Informatika</li>
+        <li>D3 Teknik Informatu=ika</li>
+        </ul>
+        
+        <h2>Ini Contoh Tabel</h2>
+        <p>Di web ini menampilkan contoh tabel/kolom</p>  
+
+    <table>
+        <tr>
+        <th>NAMA</th>
+        <th>NIM</th>
+        <th>NILAI</th>
+        </tr>
+            <tr>
+            <td>Jona</td>
+            <td>111</td>
+            <td>98</td>
+            </tr>
+                <tr>
+                <td>Joni</td>
+                <td>112</td>
+                <td>88</td>
+                </tr>
+            <tr>
+            <td>Jonu</td>
+            <td>113</td>
+            <td>68</td>
+            </tr>
+        <tr>
+        <td>Jone</td>
+        <td>114</td>
+        <td>78</td>
+        </tr>
+    </table>
+            <section>
+                <div class="absolute">Ini adalah contoh menggunakan objek position absolute</div> 
+
+        
+            <a href="http://www.google.com">Klik Disini! Ini adalah contoh link</a>
+            </section> 
+        
+        <h2>Ini Pop-Up Modal</h2>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Klik Disini!</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Tugas Desain Web Rizkal Ryandanu..</p>
+  </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+
+var btn = document.getElementById("myBtn");
+
+var span = document.getElementsByClassName("close")[0];
+ 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+            </script>
+        </body>
+</html>
